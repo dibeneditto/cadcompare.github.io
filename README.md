@@ -13,6 +13,19 @@ on your system security you may need permission from your system
 administrator to run it. Please see the REQUIREMENTS section below.
 
 
+BASED ON PUBLISHED RESEARCH
+---------------------------
+
+CADcompare™: A Web-based Application that Compares PDF CAD Drawings
+Jun 2018
+American Society for Education Engineering (ASEE) Engineering Design Graphics Division 2018 ASEE Annual Conference & Exposition
+Lukas DiBeneditto, Rustin Webster
+
+This work in progress describes the development of a web application titled CADcompare™, which automatically compares, displays, and highlights differences in Portable Document Format (PDF) files of computer-aided design (CAD) drawings and is specifically designed to compare multiple student files to an instructor's grading key. CADcompare augments the grading process of technical and engineering CAD drawings by highlighting differences that can be easily missed by a human grader, such as incorrect line type(s), color(s), or double lines (i.e., lines on top of each other). Some CAD software has built-in comparison tools, however, none of the comparison tools accept PDF files to compare, are web-based applications, or can compare multiple student files at once like CADcompare can. Grading engineering CAD drawings with accuracy and fairness can take a lot of time, the intended use of CADcompare is to act as a grading tool to help instructors grade faster, more accurately, and without unintended bias. Spring 2017, a Windows® based proof of concept version of CADcompare installed on a personal computer showcased the strengths of the software. CADcompare was able to compare multiple student drawings to the grading key much faster than previously used methods. Outcomes from user testing prompted the current development of a web-based version. This paper offers general details on how CADcompare compares PDF files, market analysis, the work in progress, and a planned research study comparing grading times with and without CADcompare in an introductory engineering graphics course.
+
+[https://peer.asee.org/30121](https://peer.asee.org/30121)
+
+
 HOW IT WORKS
 ------------
 
@@ -144,14 +157,6 @@ PDF files
 - Per pixel comparison is done at 8-bit color values.
 
 
-CONTACT
--------
-
-Lukas W. DiBeneditto <lukas@dibeneditto.com>
-http://dibeneditto.com/
-http://github.com/dibeneditto/cadcompare/
-
-
 DEPENDENCIES
 ------------
 
@@ -170,13 +175,11 @@ Ghostscript 9.20 for Windows (32 bit)
     - gsdll32.dll
 
 
-BASED ON PUBLISHED RESEARCH
----------------------------
+CONTACT
+-------
 
-CADcompare™: A Web-based Application that Compares PDF CAD Drawings
-Jun 2018  American Society for Education Engineering (ASEE) Engineering Design Graphics Division 2018 ASEE Annual Conference & Exposition
+Lukas W. DiBeneditto <lukas@dibeneditto.com>
+http://dibeneditto.com/
+http://github.com/dibeneditto/cadcompare/
 
-This work in progress describes the development of a web application titled CADcompare™, which automatically compares, displays, and highlights differences in Portable Document Format (PDF) files of computer-aided design (CAD) drawings and is specifically designed to compare multiple student files to an instructor's grading key. CADcompare augments the grading process of technical and engineering CAD drawings by highlighting differences that can be easily missed by a human grader, such as incorrect line type(s), color(s), or double lines (i.e., lines on top of each other). Some CAD software has built-in comparison tools, however, none of the comparison tools accept PDF files to compare, are web-based applications, or can compare multiple student files at once like CADcompare can. Grading engineering CAD drawings with accuracy and fairness can take a lot of time, the intended use of CADcompare is to act as a grading tool to help instructors grade faster, more accurately, and without unintended bias. Spring 2017, a Windows® based proof of concept version of CADcompare installed on a personal computer showcased the strengths of the software. CADcompare was able to compare multiple student drawings to the grading key much faster than previously used methods. Outcomes from user testing prompted the current development of a web-based version. This paper offers general details on how CADcompare compares PDF files, market analysis, the work in progress, and a planned research study comparing grading times with and without CADcompare in an introductory engineering graphics course.
-
-https://peer.asee.org/30121
 
